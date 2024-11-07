@@ -1,16 +1,13 @@
+const  button = document.getElementById('btn');
 
-  
-  
-
-
+button.addEventListener('click', shakeBall)
 
 
-  
-  function shakeBall(){ 
+function shakeBall(){ 
   const eightBall = 'Zoltar Says:'
   let randomNumber = Math.floor(Math.random() *8)
  
-  console.log(`${eightBall} your number is: ${randomNumber}`)
+  //console.log(`${eightBall} your number is: ${randomNumber}`)
  
  
 
@@ -37,8 +34,8 @@
 
    }
 
-   let question = document.getElementById('question')
-   let answer = document.getElementById('answer')
+   //let question = document.getElementById('question')
+   //let answer = document.getElementById('answer')
 
 
 
