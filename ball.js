@@ -1,33 +1,28 @@
-function setup() {
-  createCanvas(600,600)
-background('rgba(0, 255, 0, 0.25)'); 
 
-}
 
-function draw() {
+  let buttons = document.getElementsByTagName("button");
+      
+  for (let button of buttons){
+    button.addEventListener("click", shakeBall())
+    
+       }
 
+  
+  
+
+
+
+
+  function shakeBall(){ 
+  const eightBall = 'Magic 8 Ball Says'
+  let randomNumber = Math.floor(Math.random() *8)
  
-
-}
-
-
-let userName = "Adam";
-  let eightBall = 'Magic 8 Ball Says'
-
- userName ? console.log(`Hello, ${userName}!`):
- console.log('Hello!')
-
- let userQuestion = "Will i win the lottery"
- console.log (`${userName} asked -${userQuestion}`)
-
- randomNumber = Math.floor(Math.random() *8)
- console.log(`${eightBall} your number is: ${randomNumber}`)
-
+  console.log(`${eightBall} your number is: ${randomNumber}`)
+ 
  
 
   switch(randomNumber){
-    case 0: console.log( `${eightBall}- it is certain` );
-    break;
+    case 0: return ( `${eightBall}- it is certain` );
     case 1: console.log(`${eightBall}- it is decidedely so`);
     break;
     case 2: console.log (`${eightBall}-: Try again`);
@@ -45,7 +40,11 @@ let userName = "Adam";
   
   
 }
-function draw(){
+
+   }
+
+   
+/*function draw(){
   fill(0,0,0)
   circle(300,300,400);
   fill(210,210,210)
@@ -110,3 +109,4 @@ else if( randomNumber === 6 ){
   
   
 } 
+*/
