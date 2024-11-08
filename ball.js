@@ -26,7 +26,7 @@ function shakeBall(){
    
     case 6: return document.getElementById('answer').innerText =(`${eightBall} It's not Looking good for you`);
     
-    case 7: return document.getElementById('answer').innerText =(`${eightBall} Ha ha ha ha ha ha ha `);
+    case 7: return document.getElementById('answer').innerText =(`${eightBall} Ha ha ha ha ha ha ha, NO! `);
     
   
   
