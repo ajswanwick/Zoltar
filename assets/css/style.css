@@ -40,7 +40,11 @@ input{
 }
 
 #answer{
-    color: #fff;
+    margin-top: 10px;
+    color: #d3c910c9;
+    font-family: 'Creepster', sans-serif;
+    font-size: 50px;
+    
  
 }
 

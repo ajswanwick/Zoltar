@@ -12,21 +12,21 @@ function shakeBall(){
  
 
   switch(randomNumber){
-    case 0: return document.getElementById('answer').innerText = ( `${eightBall}- it is certain` );
+    case 0: return document.getElementById('answer').innerText = ( `${eightBall}: it is certain` );
     
-    case 1: return  document.getElementById('answer').innerText = (`${eightBall}- it is decidedely so`);
+    case 1: return  document.getElementById('answer').innerText = (`${eightBall}: I Doubt It very much`);
     
-    case 2: return document.getElementById('answer').innerText = (`${eightBall}-: Try again`);
+    case 2: return document.getElementById('answer').innerText = (`${eightBall}: Try again, If you Dare`);
   
-    case 3: return document.getElementById('answer').innerText = (`${eightBall}- Cannot predict now`);
+    case 3: return document.getElementById('answer').innerText = (`${eightBall} Vision Hazy, I cannot Tell`);
    
-    case 4: return document.getElementById('answer').innerText =(`${eightBall}- Do not count on it`);
+    case 4: return document.getElementById('answer').innerText =(`${eightBall} Maybe, Maybe Not!`);
     
-    case 5: return document.getElementById('answer').innerText = (`${eightBall}- My sources say no`);
+    case 5: return document.getElementById('answer').innerText = (`${eightBall} Yes, You are a lucky one`);
    
-    case 6: return document.getElementById('answer').innerText =(`${eightBall} outlook not so good`);
+    case 6: return document.getElementById('answer').innerText =(`${eightBall} It's not Looking good for you`);
     
-    case 7: return document.getElementById('answer').innerText =(`${eightBall} signs point to yes`);
+    case 7: return document.getElementById('answer').innerText =(`${eightBall} Ha ha ha ha ha ha ha `);
     
   
   
