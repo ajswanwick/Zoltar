@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+
 body{
 background-color: #000;
 
@@ -11,12 +14,22 @@ background-color: #000;
      align-items: center;
 }
 
+#title{
+    font-family: 'Creepster', sans-serif;
+    color:#d3c910c9;
+    font-size: 100px;
+    margin-bottom: -5px;
+    margin-top: 0;
+    
+}
+
 img{
-    margin-top: 20px;
-    height: 500px;
+    
+    height: 350px;
 }
 
 input{
+    margin-top: 10px;
     width: 429px;
     height: 50px;
     font-size: xx-large;
@@ -29,4 +42,14 @@ input{
 #answer{
     color: #fff;
  
+}
+
+#btn{
+    margin-top: 10px;
+    height: 80px;
+    width: 200px;
+    background-color: #d3c910c9;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    font-family: 'Creepster', sans-serif;
 }
