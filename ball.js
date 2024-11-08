@@ -12,11 +12,11 @@ function shakeBall(){
  
 
   switch(randomNumber){
-    case 0: return document.getElementById('answer').innerText = ( `${eightBall}: it is certain` );
+    case 0: return document.getElementById('answer').innerText = ( `${eightBall} it is certain` );
     
-    case 1: return  document.getElementById('answer').innerText = (`${eightBall}: I Doubt It very much`);
+    case 1: return  document.getElementById('answer').innerText = (`${eightBall} I Doubt It very much`);
     
-    case 2: return document.getElementById('answer').innerText = (`${eightBall}: Try again, If you Dare`);
+    case 2: return document.getElementById('answer').innerText = (`${eightBall} Try again, If you Dare`);
   
     case 3: return document.getElementById('answer').innerText = (`${eightBall} Vision Hazy, I cannot Tell`);
    
