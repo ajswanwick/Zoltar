@@ -1,9 +1,20 @@
 const  button = document.getElementById('btn');
 button.addEventListener('click', zoltarMessage)
-const textBox = document.getElementById('question').innerText
+
 
 
 function zoltarMessage (){
+  const textBox = document.getElementsByTagName('input');
+   
+  const noQuestionAsked = "Foolish Mortal you Didnt ask a Question" 
+
+
+   if (textBox === ""){
+    document.getElementById('answer').innerText= noQuestionAsked;
+   }else{
+
+
+  
   
   let zoltarMessage = ['it is certain', 'maybe, maybe not', 'I doubt it very much', 'Try again if you dare!!' , 'The outlook looks bleak for you',
     'ha ha ha ha ha ha ha ha, NO!', 'It is looking good for you', 'My vision is blocked i cannot tell', 'Cross my palm with silver and it will be true', 
@@ -14,8 +25,10 @@ function zoltarMessage (){
   const message = `Zoltar Says:  ${response}`
   
    document.getElementById('answer').innerText  = message
-  
+   }
  }
+
+
 
 
 
