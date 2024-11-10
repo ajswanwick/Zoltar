@@ -59,3 +59,18 @@ img{
     border-radius: 20px;
     font-family: 'Creepster', sans-serif;
 }
+
+@media screen and (max-width: 480px) {
+
+    #title{
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 10px;
+    
+    } 
+    
+    #answer{
+        text-align: center;
+    }
+    
+}
