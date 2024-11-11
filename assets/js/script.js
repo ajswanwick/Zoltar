@@ -1,5 +1,5 @@
 const  button = document.getElementById('btn');
-button.addEventListener('click', zoltarMessage)
+button.addEventListener('click', zoltarMessage);
 
 
 
@@ -21,11 +21,11 @@ function zoltarMessage (){
   const response =  zoltarMessage[randomChoice];
   const message = `Zoltar Says:  ${response}`
   
-   document.getElementById('answer').innerText  = message
+   document.getElementById('answer').innerText  = message;
     
-   const myQuestion =document.getElementById('question').value
+   const myQuestion =document.getElementById('question').value;
    
-   console.log(myQuestion)
+   console.log(myQuestion);
    
 
  }
