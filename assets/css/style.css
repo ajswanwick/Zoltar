@@ -4,15 +4,21 @@
 
 body{
 background-color: #000;
+}
 
-
-    
+#enter-page{
+    background-image: url(/assets/images/backg1.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
 }
 
 #container{
+    height: 100vh;
     display: flex;
     flex-direction: column;
      align-items: center;
+     justify-content: center;
 }
 
 #title{
