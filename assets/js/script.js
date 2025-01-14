@@ -1,5 +1,6 @@
 const  button = document.getElementById('btn');
 button.addEventListener('click', zoltarMessage);
+button.addEventListener('click', enter);
 
 
 
@@ -33,6 +34,9 @@ function zoltarMessage (){
 
 }
 
+function enter(){
+   window.location.href = 'zoltar.html'
+}
 
 
 

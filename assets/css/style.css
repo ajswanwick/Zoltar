@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
 
 body{
 background-color: #000;
@@ -15,7 +16,7 @@ background-color: #000;
 }
 
 #title{
-    font-family: 'Creepster', sans-serif;
+    font-family: 'Trade Winds', sans-serif;
     color:#d3c910c9;
     font-size: 100px;
     margin-bottom: -5px;
