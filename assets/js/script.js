@@ -1,42 +1,33 @@
-const  button = document.getElementById('btn');
+const button = document.getElementById('btn-ask');
 button.addEventListener('click', zoltarMessage);
-button.addEventListener('click', enter);
 
+r
 
+function zoltarMessage() {
+  const noQuestionAsked = "Foolish Mortal, you didn't ask a question!";
 
-function zoltarMessage (){
- 
-   
-  const noQuestionAsked = "Foolish Mortal you Didnt ask a Question!" 
+  const questionInput = document.getElementById('question').value.trim(); // Trim to avoid just spaces
 
+  if (questionInput === "") {
+    document.getElementById('answer').innerText = noQuestionAsked;
+  } else {
+    const responses = [
+      'It is certain', 'Maybe, maybe not', 'I doubt it very much', 
+      'Try again if you dare!!', 'The outlook looks bleak for you',
+      'Ha ha ha ha ha ha ha ha, NO!', 'It is looking good for you', 
+      'My vision is blocked, I cannot tell', 'Cross my palm with silver and it will be true', 
+      'Yes, you are fortunate', 'Yes, you are blessed'
+    ];
 
-   if (document.getElementById('question').value === ""){
-    document.getElementById('answer').innerText= noQuestionAsked;
-   }else{
+    const randomChoice = Math.floor(Math.random() * responses.length);
+    const message = `Zoltar Says: ${responses[randomChoice]}`;
 
-  let zoltarMessage = ['it is certain', 'maybe, maybe not', 'I doubt it very much', 'Try again if you dare!!' , 'The outlook looks bleak for you',
-    'ha ha ha ha ha ha ha ha, NO!', 'It is looking good for you', 'My vision is blocked i cannot tell', 'Cross my palm with silver and it will be true', 
-    'yes you are fortunate', 'yes you are blessed'];
-  
-  const randomChoice = Math.floor(Math.random()*zoltarMessage.length);
-  const response =  zoltarMessage[randomChoice];
-  const message = `Zoltar Says:  ${response}`
-  
-   document.getElementById('answer').innerText  = message;
-    
-   const myQuestion =document.getElementById('question').value;
-   
-   console.log(myQuestion);
-   
-
- }
-
-
+    document.getElementById('answer').innerText = message;
+    console.log("Question asked:", questionInput);
+  }
 }
 
-function enter(){
-   window.location.href = 'zoltar.html'
-}
+
 
 
 

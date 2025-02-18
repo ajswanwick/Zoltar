@@ -57,7 +57,7 @@ img{
  
 }
 
-#btn{
+#btn-ask{
     margin-top: 10px;
     height: 80px;
     width: 200px;
@@ -67,6 +67,16 @@ img{
     font-family: 'Creepster', sans-serif;
 }
 
+
+#enter{
+    margin-top: 10px;
+    height: 80px;
+    width: 200px;
+    background-color: #d3c910c9;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    font-family: 'Creepster', sans-serif;
+}
 
 
 @media screen and (max-width: 480px) {
